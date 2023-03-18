@@ -1,20 +1,25 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+
+import React from 'react'
+import { View} from 'react-native';
+import { Button, Text, Card } from '@rneui/themed'
+
+// this is a starter app with react native elements ui
+
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View>
+      <Card>
+      <Text h2>React Native is Awesome</Text>
+
+        <Button>Primary</Button>
+        <Button color="secondary">Secondary</Button>
+       <Button color="warning">Warning</Button>
+       <Button color="error">Error</Button>
+      <Button color="secondary">React Native</Button>
+      <Button title="Solid" type="solid" loading />
+      </Card>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
