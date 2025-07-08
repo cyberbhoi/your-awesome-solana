@@ -1,4 +1,4 @@
 # Expo starter 
 
+Collection of all Expo Starter Apps for quick development
 
-basic starter app with react native elements
