@@ -1,4 +1,4 @@
-# Expo starter 
+# Your Awesome Solana 
 
-Collection of all Expo Starter Apps for quick development
+List of resources and tools for learning and building applications on solana blockchain.
 
